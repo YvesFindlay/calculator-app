@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DOM Calculator</title>
+    <meta name="DOM Calculator" />
+    <meta name="Yves Findlay" />
+    <link rel="stylesheet" href="./calculator.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="grid-calculator">
+      <div class="calc-output">
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <div class="calc-buttons">
+        <div class="grid-item bs">
+          <button class="calc-buttons lg" data-delete>c</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons lg" data-all-delete>ac</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons lg" value="%" data-operation>
+            <i class="fas fa-percentage"></i>
+          </button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons o" value="/" data-operation>
+            <i class="fas fa-divide"></i>
+          </button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg 7" data-num>7</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg" data-num>8</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg" data-num>9</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons o" value="*" data-operation>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg" data-num>4</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg" data-num>5</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg" data-num>6</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons o" value="-" data-operation>
+            <i class="fas fa-minus"></i>
+          </button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg" data-num>1</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg" data-num>2</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg" data-num>3</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons o" value="+" data-operation>
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons big-btn cg" data-num>0</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons cg" data-num>.</button>
+        </div>
+        <div class="grid-item">
+          <button class="calc-buttons o" value="=" data-equals>
+            <i class="fas fa-equals"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
