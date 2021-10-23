@@ -15,7 +15,7 @@ This app was built natively in HTML, CSS and JavaScript
 To run this project, install it locally:
 
 ```
-downoad or clone markdown-editor
+download or clone markdown-editor
 $ cd ../calculator-app
 open calculator.html
 
