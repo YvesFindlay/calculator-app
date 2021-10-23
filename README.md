@@ -1,6 +1,6 @@
 # Calculator App
 
-This project was one of my intial projects. It is a replication of the Iphone calculator. ES6 class based construct was used in the development of this application.
+This project was one of my intial projects. It is a replication of the Iphone calculator. A ES6 class based construct was used in the development of this application.
 
 ## Functionality
 
