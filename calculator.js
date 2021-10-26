@@ -93,7 +93,7 @@ numberBtns.forEach((button) => {
 operationBtns.forEach((operation) => {
   operation.addEventListener("click", () => {
     calculator.determineOperation(operation.value);
-    calculator.updateDisplay();
+    // calculator.updateDisplay();
   });
 });
 
